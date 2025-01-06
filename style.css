@@ -1,6 +1,6 @@
 body{
     background-color: #f5d9d5;
-    font-family: "open-sans", sans-serif;
+    font-family: "Playwrite IE Guides", serif;;
 }
 
 #mainNavbar {
@@ -21,5 +21,22 @@ body{
     color: #d43108;
 }
 
+h2 {
+    font-family: "open-sans", serif;
+    color: rgba(15, 173, 123, 0.628);
+    font-weight: 100;
+    font-size: 4rem;
+}
 
+span {
+    color: #d43108;
+}
 
+@media (max-width: 1200px) {
+    body {
+        background-color: aliceblue;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
