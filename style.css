@@ -28,6 +28,10 @@ h2 {
     font-size: 4rem;
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 span {
     color: #d43108;
 }
@@ -39,4 +43,8 @@ span {
     h2 {
         font-size: 2rem;
     }
+}
+
+svg {
+    color: rgb(234, 234, 100);
 }
