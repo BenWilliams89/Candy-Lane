@@ -28,6 +28,14 @@ h2 {
     font-size: 4rem;
 }
 
+h3 {
+    color: blue;
+    font-weight: 100;
+}
+.apple {
+    color: #08d490;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -36,15 +44,20 @@ span {
     color: #d43108;
 }
 
+svg {
+    color: rgb(234, 234, 100);
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 @media (max-width: 1200px) {
     body {
-        background-color: aliceblue;
+        background-color: rgba(150, 212, 225, 0.696);
     }
     h2 {
         font-size: 2rem;
     }
 }
 
-svg {
-    color: rgb(234, 234, 100);
-}
